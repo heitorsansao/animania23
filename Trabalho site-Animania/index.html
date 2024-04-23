@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img /favicon.png" type="image/x-icon">
+  <title>Animania</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+            <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-md bg-black navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0"><img class="d-block" src="img /logo-animania.png" alt="Logo da loja Animania"></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.petz.com.br/parceiro/canilportugalia">Lojas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.pandoraboutiquepet.com.br/roupas">Novidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.petcaixas.com.br/capa-de-chuva-para-seu-pet/p?gad_source=1&gclid=CjwKCAjwtqmwBhBVEiwAL-WAYWN9FcgZQyxbDmZFwe0F344rxYzzQD6hduomt8utMBkVw0WPb3s2AhoCFDMQAvD_BwE">Promoção</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto"
+            aria-label="Pesquisar">
+          <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+        <!-- Carrossel -->  
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100 img-fluid d-md-none" src="img /Desktop /Pet Shop.png"
+          alt="imagem promocional de Animania">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="img /Tablet /Pet Shop (2).png"
+          alt="imagem promocional de Animania">
+        <img class="w-100 img-fluid d-none d-xl-block" src="img /Mobile /Pet Shop .png"
+          alt="imagem promocional de Animania">
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="img /Mobile /pet shop 2 (1).png"
+          alt="imagem promocional de Animania">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="img /Tablet /pet shop 2 (1).png"
+          alt="imagem promocional de Animania">
+        <img class="w-100 img-fluid d-none d-xl-block" src="img /Desktop /pet shop 2 (1).png"
+          alt="imagem promocional de Animania">
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="img /Mobile /Pet Shopad (1).png"
+          alt="imagem promocional de Animania">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="img /Tablet /Pet Shopad (1).png"
+          alt="imagem promocional de Animania">
+        <img class="w-100 img-fluid d-none d-xl-block" src="img /Desktop /Pet Shopad (1).png"
+          alt="imagem promocional de Animania">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+            <!-- Categoria Primeiros 6 Cards -->
+
+  <h2 class="text-center my-3 my-xl-5">Busque por categoria:</h2>
+
+  <div class="container row mx-auto g-4">
+
+    <div class="col-6 col-md-4 col-xxl-2">
+        <div class="card rounded-0 border-0">
+          <img class="d-md-none d-block" src="img /Mobile /categorias (1)/Design sem nome (11).png"
+            alt="Cachorro,em fundo salmão">
+          <img class="d-none d-md-block d-xl-none" src="img /Tablet /categorias (1)/Design sem nome (11).png"
+            alt="Cachorro,em fundo salmão">
+          <img class="d-none d-xl-block" src="img /Desktop /categorias (1)/Design sem nome (11).png"
+            alt="Cachorro,em fundo salmão">
+          <div class="card-header bg-black text-bg-dark">
+            <p class="text-center card-text">
+              Cachorros
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="img /Mobile /categorias (1)/Design sem nome (6).png"
+          alt="Gato,em fundo salmão">
+        <img class="d-none d-md-block d-xl-none" src="img /Tablet /categorias (1)/Design sem nome (6).png"
+          alt="Gato,em fundo salmão">
+        <img class="d-none d-xl-block" src="img /Desktop /categorias (1)/Design sem nome (6).png"
+          alt="Gato,em fundo salmão">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Gatos
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="img /Mobile /categorias (1)/Design sem nome (7).png"
+          alt="hamster,em fundo salmão">
+        <img class="d-none d-md-block d-xl-none" src="img /Mobile /categorias (1)/Design sem nome (7).png"
+          alt="hamster,em fundo salmão">
+        <img class="d-none d-xl-block" src="img /Mobile /categorias (1)/Design sem nome (7).png"
+          alt="Hamster,em fundo salmão">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Hamster
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="img /Mobile /categorias (1)/Design sem nome (8).png"
+          alt="Furão,em fundo salmão">
+        <img class="d-none d-md-block d-xl-none" src="img /Mobile /categorias (1)/Design sem nome (8).png"
+          alt="Furão,em fundo salmão">
+        <img class="d-none d-xl-block" src="img /Mobile /categorias (1)/Design sem nome (8).png"
+          alt="Furão,em fundo salmão">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Furão
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="img /Mobile /categorias (1)/Design sem nome (9).png"
+          alt="Coelho,em fundo salmão">
+        <img class="d-none d-md-block d-xl-none" src="img /Mobile /categorias (1)/Design sem nome (9).png"
+          alt="Coelho,em fundo salmão">
+        <img class="d-none d-xl-block" src="img /Mobile /categorias (1)/Design sem nome (9).png"
+          alt="Coelho,em fundo salmão">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Coelho
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="img /Mobile /categorias (1)/Design sem nome (10).png"
+          alt="Calopsita,em fundo salmão.">
+        <img class="d-none d-md-block d-xl-none" src="img /Mobile /categorias (1)/Design sem nome (10).png"
+          alt="Calopsita,em fundo salmão.">
+        <img class="d-none d-xl-block" src="img /Mobile /categorias (1)/Design sem nome (10).png"
+          alt="Calopsita,em fundo salmão">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Calopsita
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+                       <!-- Produtos Segundo 6 Cards -->
+
+  <h2 class="container text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
+
+  <div class="container row mx-auto">
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="img /Desktop /produtos (1)/furao (1).jpg" alt="" srcset="">
+        <img class="d-none d-md-block d-xl-none" src="img /Desktop /produtos (1)/furao (1).jpg"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <img class="d-none d-xl-block" src="img /Desktop /produtos (1)/furao (1).jpg"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Roupa jardineira confortavel para furões.</h5>
+          <p class="card-text">Multicores e tamanhos, tecido de algodão, modelagem confortavel e ajustável.
+          </p>
+          <p class="fw-bold">R$70,00</p>
+          <a href="https://www.amazon.com.br/Clothes-Fantasia-respir%C3%A1vel-Acess%C3%B3rio-Halloween/dp/B07Z8Y5VNB" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="img /Desktop /produtos (1)/gato (1).jpeg"
+          alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
+        <img class="d-none d-md-block d-xl-none" src="img /Desktop /produtos (1)/gato (1).jpeg"
+          alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
+        <img class="d-none d-xl-block" src="img /Desktop /produtos (1)/gato (1).jpeg"
+          alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">moletom dinossauro para gatos</h5>
+          <p class="card-text">Modelo confortavel de pelucia,varios tamanhos e cores.</p>
+          <p class="fw-bold">R$65,00</p>
+          <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canseidesergato.com%2Fmoletomcanguru&psig=AOvVaw3Dfxq_HqC6c6Y3DcbyuwcK&ust=1711539855244000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOi8pI3tkYUDFQAAAAAdAAAAABAJ" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="img /Desktop /produtos (1)/cachorro (1).jpg"
+          alt="cachorro usando roupa elegante em fundo branco ">
+        <img class="d-none d-md-block d-xl-none" src="img /Desktop /produtos (1)/cachorro (1).jpg"
+          alt="cachorro usando roupa elegante em fundo branco ">
+        <img class="d-none d-xl-block" src="img /Desktop /produtos (1)/cachorro (1).jpg"
+          alt="cachorro usando roupa elegante em fundo branco ">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">roupa social para cachorros</h5>
+          <p class="card-text">roupa social confortavel, de varios tamanhos,tecido resistente.</p>
+          <p class="fw-bold">R$100,00</p>
+          <a href="https://www.enjoei.com.br/p/roupa-cachorro-social-84239962" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="img /Desktop /produtos (1)/coelho+1 (1).jpeg"
+          alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+        <img class="d-none d-md-block d-xl-none" src="img /Desktop /produtos (1)/coelho+1 (1).jpeg"
+          alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+        <img class="d-none d-xl-block" src="img /Desktop /produtos (1)/coelho+1 (1).jpeg"
+          alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Rodapa jardineira para coelhos (azul)</h5>
+          <p class="card-text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+          <p class="fw-bold">R$70,00</p>
+          <a href="https://shopee.com.br/Ecbr-Conjunto-De-Roupa-Para-Pet-De-Coelho-Jaqueta-Jeans-Com-Coleira-Para-Animais-Pequenos-i.348895558.9577740778" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="img /Desktop /produtos (1)/tubarao (1).jpeg"
+          alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
+        <img class="d-none d-md-block d-xl-none" src="img /Desktop /produtos (1)/tubarao (1).jpeg"
+          alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
+        <img class="d-none d-xl-block" src="img /Desktop /produtos (1)/tubarao (1).jpeg
+        
+        
+        "
+          alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">roupa sanduiche para porquinho da india</h5>
+          <p class="card-text">roupa confortavel para porquinhos da india, varias cores e tamanhos.</p>
+          <p class="fw-bold">R$120,00</p>
+          <a href="https://www.mulher.com.br/comportamento/criaram-fantasias-minusculas-para-porquinhos-da-india-e-nao-sabemos-o-que-pensar" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="img /Desktop /produtos (1)/aelha (1).jpg"
+          alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
+        <img class="d-none d-md-block d-xl-none" src="img /Desktop /produtos (1)/aelha (1).jpg"
+          alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
+        <img class="d-none d-xl-block" src="img /Desktop /produtos (1)/aelha (1).jpg"
+          alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Roupa para calopsita de abelha</h5>
+          <p class="card-text">Roupa de abelha pequena para calopsitas.</p>
+          <p class="fw-bold">R$50,00</p>
+          <a href="https://www.amazon.com.br/Fantasia-calopsita-ador%C3%A1veis-papagaio-poli%C3%A9ster/dp/B0CBHCKMD6" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+                             <!--Informações Rodape-->
+
+  <section class="pb-4 bg-black text-bg-dark">
+
+    <h2 class="text-center py-3">Conheça todas as nossas facilidades</h2>
+
+    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="verde-limao bi bi-x-diamond fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 verde-limao">PAGUE PELO PIX</div>
+          <div class="texto-menor ms-3">Ganhe 5% OFF em
+            pagamentos via PIX</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="verde-limao bi bi-arrow-repeat fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 verde-limao">TROCA GRÁTIS</div>
+          <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="verde-limao bi bi-flower1 fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 verde-limao">SUSTENTABILIDADE</div>
+          <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--Formulario E-mail-->
+
+  <form class="container border border-secondary my-3 my-xl-5 p-3 text-center div-novidades mx-auto">
+    <h5>
+      Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira
+      compra? Cadastre-se!
+    </h5>
+
+    <div class="input-group my-3">
+      <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
+        aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+      <button type="button" class="btn btn-primary botao-lilas rounded-0 border-0 " id="button-addon2">Enviar</button>
+    </div>
+  </form>
+
+
+  <!-- Footer com Informações do Desenvolvedor-->
+
+  <footer class="text-center bg-black text-bg-dark">
+    <p class="card-text py-3">2024 <i class="bi bi-c-circle"></i> Em desenvolvimento| Projeto fictício sem fins
+      comerciais.</p>
+  </footer>
+
+  <a href="https://wa.me/554484134077" target="_blank" class="whatsapp-btn">
+    <img src="./img /icons8-whatsapp-64.png" alt="Ícone do WhatsApp">
+    </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
